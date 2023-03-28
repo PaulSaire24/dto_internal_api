@@ -3,12 +3,12 @@ package com.bbva.rbvd.dto.internalapi.aso.common;
 import com.bbva.apx.dto.AbstractDTO;
 
 public class GenericFeeASO extends AbstractDTO {
-    private Integer percentageValue;
+    private Double percentageValue;
     private GenericAmountASO paymentAmount;
     private GenericAmountASO unit;
 
-    public Integer getPercentageValue() { return percentageValue; }
-    public void setPercentageValue(Integer percentageValue) { this.percentageValue = percentageValue; }
+    public Double getPercentageValue() { return percentageValue; }
+    public void setPercentageValue(Double percentageValue) { this.percentageValue = percentageValue; }
     public GenericAmountASO getPaymentAmount() { return paymentAmount; }
     public void setPaymentAmount(GenericAmountASO paymentAmount) { this.paymentAmount = paymentAmount; }
     public GenericAmountASO getUnit() { return unit; }
