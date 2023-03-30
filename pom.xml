@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.rbvd.dto.internalapi</groupId>
 	<artifactId>RBVDC005</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_internal_api of uuaa rbvd</description>
 	<properties>
