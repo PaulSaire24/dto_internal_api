@@ -7,14 +7,14 @@
 		<artifactId>elara-project</artifactId>
 		<version>7.9.6</version>
 	</parent>
-	<groupId>com.bbva.rbvd.dto.internalapi</groupId>
+	<groupId>com.bbva.rbvd.dto.connectionapi</groupId>
 	<artifactId>RBVDC005</artifactId>
 	<version>0.1.0</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_internal_api of uuaa rbvd</description>
 	<properties>
 		<sonar.coverage.exclusions>
-			/src/main/java/com/bbva/rbvd/dto/internalapi/**/*.java
+			/src/main/java/com/bbva/rbvd/dto/connectionapi/**/*.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
