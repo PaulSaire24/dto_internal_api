@@ -14,10 +14,8 @@ import com.bbva.rbvd.dto.connectionapi.aso.common.ProductASO;
 import com.bbva.rbvd.dto.connectionapi.aso.common.QuotationASO;
 import com.bbva.rbvd.dto.connectionapi.aso.common.ScheduleContactASO;
 
-import java.util.Date;
-
 public class GifoleInsuranceRequestASO extends AbstractDTO {
-    private Date operationDate;
+    private String operationDate;
     private String channel;
     private String operationType;
     private String policyNumber;
@@ -36,8 +34,8 @@ public class GifoleInsuranceRequestASO extends AbstractDTO {
     private PeriodASO validityPeriod;
     private LocationASO location;
 
-    public Date getOperationDate() {return operationDate;}
-    public void setOperationDate(Date operationDate) {this.operationDate = operationDate;}
+    public String getOperationDate() {return operationDate;}
+    public void setOperationDate(String operationDate) {this.operationDate = operationDate;}
     public String getChannel() {return channel;}
     public void setChannel(String channel) {this.channel = channel;}
     public String getOperationType() {return operationType;}
