@@ -20,7 +20,7 @@ public class GifoleInsuranceRequestASO extends AbstractDTO {
     private String operationType;
     private String policyNumber;
     private String couponCode;
-    private String externalSimulationid;
+    private String externalSimulationId;
     private ProductASO product;
     private GoodASO good;
     private InstallmentPlanASO installmentPlan;
@@ -68,31 +68,30 @@ public class GifoleInsuranceRequestASO extends AbstractDTO {
     public void setLocation(LocationASO location) {this.location = location;}
     public String getCouponCode() {return couponCode;}
     public void setCouponCode(String couponCode) {this.couponCode = couponCode;}
-    public String getExternalSimulationid() {return externalSimulationid;}
-    public void setExternalSimulationid(String externalSimulationid) {this.externalSimulationid = externalSimulationid;}
+    public String getExternalSimulationid() {return externalSimulationId;}
+    public void setExternalSimulationid(String externalSimulationid) {this.externalSimulationId = externalSimulationid;}
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("GifoleInsuranceRequestASO{");
-        sb.append("operationDate='").append(this.getOperationDate()).append("'");
-        sb.append(", channel='").append(this.getChannel()).append("'");
-        sb.append(", operationType='").append(this.getOperationType()).append("'");
-        sb.append(", policyNumber='").append(this.getPolicyNumber()).append("'");
-        sb.append(", couponCode='").append(this.getCouponCode()).append("'");
-        sb.append(", externalSimulationid='").append(this.getExternalSimulationid()).append("'");
-        sb.append(", product=").append(this.getProduct());
-        sb.append(", good=").append(this.getGood());
-        sb.append(", installmentPlan=").append(this.getInstallmentPlan());
-        sb.append(", totalPremiumAmount=").append(this.getTotalPremiumAmount());
-        sb.append(", holder=").append(this.getHolder());
-        sb.append(", quotation=").append(this.getQuotation());
-        sb.append(", bank=").append(this.getBank());
-        sb.append(", businessAgent=").append(this.getBusinessAgent());
-        sb.append(", scheduleContact=").append(this.getScheduleContact());
-        sb.append(", insurance=").append(this.getInsurance());
-        sb.append(", validityPeriod=").append(this.getValidityPeriod());
-        sb.append(", location=").append(this.getLocation());
-        sb.append('}');
-        return sb.toString();
+        return "GifoleInsuranceRequestASO{" +
+                "operationDate='" + operationDate + '\'' +
+                ", channel='" + channel + '\'' +
+                ", operationType='" + operationType + '\'' +
+                ", policyNumber='" + policyNumber + '\'' +
+                ", couponCode='" + couponCode + '\'' +
+                ", externalSimulationId='" + externalSimulationId + '\'' +
+                ", product=" + product +
+                ", good=" + good +
+                ", installmentPlan=" + installmentPlan +
+                ", totalPremiumAmount=" + totalPremiumAmount +
+                ", holder=" + holder +
+                ", quotation=" + quotation +
+                ", bank=" + bank +
+                ", businessAgent=" + businessAgent +
+                ", scheduleContact=" + scheduleContact +
+                ", insurance=" + insurance +
+                ", validityPeriod=" + validityPeriod +
+                ", location=" + location +
+                '}';
     }
 }
